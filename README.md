@@ -27,21 +27,24 @@ Bash
 cd javascript_api_speechsyntesis_40minclock
 Abre el archivo principal: Simplemente abre index.html en tu navegador favorito.
 
-#🎙️ Cómo funciona la síntesis de voz
+# 🎙️ Cómo funciona la síntesis de voz
+
 La aplicación detecta las voces disponibles en tu sistema operativo y navegador. Al llegar a hitos de tiempo específicos (ej. "quedan 10 minutos", "tiempo cumplido"), el navegador generará una locución automática.
 
 # JavaScript
+
 // Ejemplo del núcleo de la lógica de voz
+
 const mensaje = new SpeechSynthesisUtterance("Han pasado 40 minutos");
 window.speechSynthesis.speak(mensaje);
 
-#📄 Licencia
+# 📄 Licencia
 Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
 
-#👤 Autor
+# 👤 Autor
 Desarrollado por Ivan Ayael.
 
-#💡 Sugerencia de mejora para tu repo:
+# 💡 Sugerencia de mejora:
 
 [] Permitir al usuario elegir el idioma de la voz.
 [] Ajustar el intervalo de tiempo (no solo 40 minutos).
