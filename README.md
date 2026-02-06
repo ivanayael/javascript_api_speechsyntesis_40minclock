@@ -1,4 +1,5 @@
-#⏱️ Speech Synthesis 40-Min Clock
+# ⏱️ Speech Synthesis 40-Min Clock
+
 Una aplicación web interactiva que funciona como un temporizador de 40 minutos, utilizando la Web Speech API para anunciar por voz el tiempo transcurrido o avisos específicos. Ideal para sesiones de estudio, entrenamientos o gestión de bloques de tiempo (estilo Pomodoro extendido).
 
 # 🚀 Características
